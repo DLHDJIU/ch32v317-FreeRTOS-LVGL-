@@ -1,0 +1,51 @@
+# ========== 编译生成的文件 ==========
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.d
+*.dep
+*.crf
+*.htm
+*.lnp
+*.sct
+*.Bak
+
+# ========== 编译输出目录 ==========
+obj/
+Debug/
+Release/
+build/
+Listings/
+Objects/
+.settings/
+.metadata/
+
+# ========== IDE 临时文件 ==========
+*.launch
+*.prefs
+.cproject.bak
+.project.bak
+*.uvguix.*
+*.uvoptx
+*.scvd
+
+# ========== 大文件/压缩包 ==========
+*.log
+*.zip
+*.rar
+*.7z
+*.exe
+*.dll
+
+# ========== 保留源码和配置 ==========
+!*.c
+!*.h
+!*.S
+!*.s
+!*.ld
+!*.md
+!*.txt
